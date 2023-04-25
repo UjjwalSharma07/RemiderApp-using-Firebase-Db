@@ -1,0 +1,85 @@
+
+.content{
+
+   width: 400px;
+   height: 500px;
+   background: white;
+   border-radius: 15px;
+   margin: auto;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   overflow: hidden;
+}
+
+h1{
+    margin: 13px 0px 12px 0px;
+    color: #fff;
+    width: 100%;
+    background-color:rgba(165, 73, 165, 0.774);
+    text-align: center;
+    font-weight: 500;
+}
+.textBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input{
+    border: none;
+    border-bottom: 3px solid rgba(165, 73, 165, 0.774);
+    width: 250px;
+    outline: none;
+    font-size: large;
+    color: rgba(165, 73, 165, 0.774);
+}
+.input::placeholder{
+    color: black;
+    font-size: large;
+    font-weight: 550;
+    color: rgba(165, 73, 165, 0.492);
+}
+.btn{
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgba(165, 73, 165, 0.774);
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color:rgba(91, 241, 184, 0.774);
+}
+.list{
+    display: flex;
+    color: rgba(165, 73, 165, 0.774);
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+ol{
+    height: 60%;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+}
+ol::-webkit-scrollbar {
+    display:none;
+}
+.logoutBtn{
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
