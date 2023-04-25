@@ -51,13 +51,7 @@ const Todo = () => {
       })
     });
    
-    
-      // const starCountRef = ref(db, "posts/" + postId + "/starCount");
-      // onValue(starCountRef, (snapshot) => {
-      //   const data = snapshot.val();
-      //   updateStarCount(postElement, data);
-      //   setArrayListItems(data);
-      // });
+ 
     setInputData("");
   };
 
